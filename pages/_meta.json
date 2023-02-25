@@ -3,6 +3,12 @@
   "--": {
     "type": "separator"
   },
+  "responsive-web": {
+    "title": "01 Desain Web Responsif"
+  },
+  "-": {
+    "type": "separator"
+  },
   "credits": "Kredit",
   "contribution": {
     "title": "Ikut Kontribusi",

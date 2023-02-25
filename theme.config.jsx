@@ -8,6 +8,10 @@ export default {
   project: {
     link: "https://github.com/ngodingorg/ngodingorg",
   },
+  docsRepositoryBase: "https://github.com/ngodingorg/ngodingorg/blob/main",
+  search: {
+    placeholder: "Cari materi...",
+  },
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
