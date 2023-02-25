@@ -21,5 +21,6 @@
   "a20-form-tag": "Tag form",
   "a21-action-form": "action dalam form",
   "a22-input-tag": "Tag input",
-  "a23-input-type": "Tipe Input"
+  "a23-input-type": "Tipe Input",
+  "a24-input-name": "Atribut name"
 }
