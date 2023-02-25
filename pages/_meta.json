@@ -1,0 +1,22 @@
+{
+  "index": "Selamat Datang",
+  "--": {
+    "type": "separator"
+  },
+  "credits": "Kredit",
+  "contribution": {
+    "title": "Ikut Kontribusi",
+    "href": "https://github.com/ngodingorg/ngodingorg",
+    "newWindow": true
+  },
+  "learn": {
+    "title": "Mulai Belajar",
+    "type": "menu",
+    "items": {
+      "responsiveWeb": {
+        "title": "Desain Web Responsif",
+        "href": "/responsive-web"
+      }
+    }
+  }
+}

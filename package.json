@@ -1,0 +1,30 @@
+{
+  "name": "ngodingorg",
+  "version": "0.1.0",
+  "description": "Belajar pemrograman secara gratis",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "education"
+  ],
+  "author": "Hisam Fahri",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^13.2.1",
+    "nextra": "^2.2.16",
+    "nextra-theme-docs": "^2.2.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.14.1",
+    "husky": "^8.0.0",
+    "prettier": "^2.8.4",
+    "pretty-quick": "^3.1.3",
+    "typescript": "4.9.5"
+  }
+}
