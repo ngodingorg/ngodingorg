@@ -1,7 +1,8 @@
 {
   "a1-tag-html": "Tag HTML",
-  "a2-heading-tag": "Heading Tag",
-  "a3-p-tag": "Paragraph Tag",
+  "a2-heading-tag": "Heading",
+  "a3-p-tag": "Paragraph",
   "a4-comment": "Comment",
-  "a5-main-tag": "Main Tag"
+  "a5-main-tag": "Main Tag",
+  "a6-image-tag": "Image"
 }
