@@ -24,5 +24,11 @@
         "href": "/responsive-web"
       }
     }
+  },
+  "forum": {
+    "title": "Forum",
+    "type": "page",
+    "href": "https://github.com/ngodingorg/ngodingorg/discussions",
+    "newWindow": true
   }
 }
