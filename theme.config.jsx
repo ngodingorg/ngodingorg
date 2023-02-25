@@ -12,6 +12,15 @@ export default {
   search: {
     placeholder: "Cari materi...",
   },
+  editLink: {
+    text: "Sunting halaman ini",
+  },
+  toc: {
+    title: "Di Halaman ini",
+  },
+  feedback: {
+    content: "Ada masalah? Laporkan →",
+  },
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
