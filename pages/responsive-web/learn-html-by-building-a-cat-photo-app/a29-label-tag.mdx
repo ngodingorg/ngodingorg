@@ -1,0 +1,39 @@
+# Tag `label`
+
+Di bagian [Tipe Input](/responsive-web/learn-html-by-building-a-cat-photo-app/a23-input-type) sebelumnya, sudah dikenalakan berbagai macam tipe input. Salah satu tipe input yang tersedia adalah `type="radio"`.
+
+```html
+<!-- Ingat, tag 'input' bersifat self-closing -->
+<input type="radio" />
+```
+
+Tipe ini membantu user memiilih satu dari beberapa pilihan yang tersedia. Namun, `type="radio"` hanya memberikan tombolnya saja tanpa teks yang memberikan penjelasan tentang pilihan yang tersedia ke pengguna.
+
+Untuk menyelesaikan hal tersebut, kita bisa menambhakan tag `<label>` yang membungkus tag `type="radio"` kita.
+
+```html
+<label><input type="radio" /> Item #1</label>
+```
+
+Namun, tag `<label>` hanya berfungsi sebagai petunjuk untuk pengguna. Untuk memberikan nilai ke setiap pilihan _input_ `type="radio"`, kita bisa memberikan atribut `value`.
+
+### Contoh
+
+```html
+<label><input type="radio" value="item1" /> Item #1</label>
+```
+
+### Tantangan
+
+Tambahkan `input` _radio_ di atas _input_ teks yang ada, dengan _label_: "**Dalam Rumah**", dan value: `dalam`.
+
+<br />
+
+<iframe
+  src="https://stackblitz.com/fork/ngodingorg-a29?ctl=1&embed=1&file=index.html&hideExplorer=1"
+  style={{ width: "100%", height: "564px" }}
+/>
+
+### Solusi
+
+[Buka Solusi](https://stackblitz.com/fork/ngodingorg-a29-solution?embed=1&file=index.html)

@@ -26,5 +26,8 @@
   "a25-input-placeholder": "Atribut placeholder",
   "a26-input-required": "Atribut required",
   "a27-button-tag": "Tag button",
-  "a28-button-type": "Tipe Tombol"
+  "a28-button-type": "Tipe Tombol",
+  "a29-label-tag": "Tag label",
+  "a30-attribute-id": "Atribut id",
+  "a31-checkpoint-3": "Checkpoint #3"
 }
