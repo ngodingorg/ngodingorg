@@ -1,0 +1,36 @@
+# Tag `fieldset`
+
+Kalau kamu perhatikan, tag `<h1>`, `<h2>`, `<p>` dan banyak tag lainnya memposisikan elemen mereka bertumpuk dari atas ke bawah. Sedangkan tag seperti `<input>` dan `<button>` berjejeran ke samping. Hal ini karena kedua kelompok tersebut memiliki _level_ yang berbeda
+
+Kelompok pertama yang bertumpuk atas bawah berjenis [_Block-Level Elements_](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements), yang berarti element tersebut menggunakan seluruh ruang yang ada di baris tersebut untuk dirinya sendiri.
+
+Sedangkan, tag yang berjejer ke samping berjenis [_Inline-Level Elements_](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements), artinya tag tersebut hanya menempati ruang sesuai dengan ukuran mereka saja.
+
+---
+
+Baiklah, mari kita kembali ke topik utama. Di dalam suatu `<form>` kita dapat mengelompokkan `input` dan `label` di dalam satu kelompok yang sama menggunakan tag `<fieldset>`.
+
+### Contoh
+
+```html
+<fieldset>
+  <input type="radio" id="opsi-item-1" value="item1" /><label>Item #1</label>
+
+  <input type="text" id="input-teks" name="input1" />
+</fieldset>
+```
+
+### Tantangan
+
+Masukkan semua `input` yang ada ke dalam tag `<fieldset>`.
+
+<br />
+
+<iframe
+  src="https://stackblitz.com/fork/ngodingorg-a32?ctl=1&embed=1&file=index.html&hideExplorer=1"
+  style={{ width: "100%", height: "564px" }}
+/>
+
+### Solusi
+
+[Buka Solusi](https://stackblitz.com/fork/ngodingorg-a32-solution?embed=1&file=index.html)
