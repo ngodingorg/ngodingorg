@@ -1,0 +1,35 @@
+# Atribut Kondisi
+
+Sering kali, kita perlu untuk mencegah pengguna memilih suatu input, dan sering kali kita ingin membuat suatu pilihan (`type="radio"` atau `type="checkbox"`) terpilih secara default.
+
+Untuk membuat pilihan tidak dapat diubah, kita bisa menggunakan atribut `disabled`. Sedangkan, untuk membuat suatu pilihan terpilih secara otomatis, kita bisa menggunakan atribut `checked`. Kita juga mengkombinasikan keduanya juga, lho.
+
+### Contoh
+
+```html
+<!-- Tidak dapat diubah -->
+<input type="checkbox" disabled />
+
+<!-- Opsi terpilih secara default -->
+<input type="checkbox" checked />
+
+<!-- Opsi terpilih secara default, dan tidak dapat diubah -->
+<input type="checkbox" checked disabled />
+
+<button id="ini-tombol">Tombol</button>
+```
+
+### Tantangan
+
+Buat pilihan "**Manja**" terpilih secara _default_.
+
+<br />
+
+<iframe
+  src="https://stackblitz.com/fork/ngodingorg-a35?ctl=1&embed=1&file=index.html&hideExplorer=1"
+  style={{ width: "100%", height: "564px" }}
+/>
+
+### Solusi
+
+[Buka Solusi](https://stackblitz.com/fork/ngodingorg-a35-solution?embed=1&file=index.html)
