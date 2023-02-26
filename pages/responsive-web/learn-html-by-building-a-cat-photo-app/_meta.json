@@ -3,7 +3,7 @@
   "a2-heading-tag": "Heading",
   "a3-p-tag": "Paragraph",
   "a4-comment": "Comment",
-  "a5-main-tag": "Main Tag",
+  "a5-main-tag": "Tag main",
   "a6-image-tag": "Image",
   "a7-attribute": "Atribut",
   "a8-alt-attribute": "Atribut alt",
@@ -33,5 +33,6 @@
   "a32-fieldset-tag": "Tag fieldset",
   "a33-legend-tag": "Tag legend",
   "a34-checkpoint-4": "Checkpoint #4",
-  "a35-input-state": "Atribut Kondisi"
+  "a35-input-state": "Atribut Kondisi",
+  "a36-footer-tag": "Tag footer"
 }
