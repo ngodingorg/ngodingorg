@@ -34,7 +34,7 @@ export default {
   footer: {
     text: (
       <span>
-        (c) {new Date().getFullYear()}{" "}
+        © {new Date().getFullYear()}{" "}
         <a href="https://github.com/ngodingorg/ngodingorg" target="_blank">
           ngoding.org dan semua kontributor
         </a>
