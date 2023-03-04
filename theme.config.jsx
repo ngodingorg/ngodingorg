@@ -28,7 +28,7 @@ export default {
       <meta property="og:title" content="ngoding.org" />
       <meta
         property="og:description"
-        content="Belajar pemrogramana gratis untuk semua"
+        content="Belajar pemrograman gratis untuk semua"
       />
     </>
   ),
