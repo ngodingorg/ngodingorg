@@ -1,6 +1,6 @@
 {
   "name": "ngodingorg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Belajar pemrograman secara gratis",
   "scripts": {
     "dev": "next dev",
